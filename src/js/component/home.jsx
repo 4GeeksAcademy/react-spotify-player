@@ -1,6 +1,7 @@
 import React from "react";
 import Spotify from "./spotify";
 
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -10,6 +11,7 @@ const Home = () => {
 		<div className="container">
 			
 			<Spotify/>
+			
 			
 		</div>
 	);
