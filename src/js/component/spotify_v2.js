@@ -59,7 +59,6 @@ const Spotify_v2 = () => {
         }
     }
 
-    
         const previousSong= () =>{
             //console.log("en previousSong - songIndex: ",songIndex)
             if (songIndex > 0) {
@@ -71,7 +70,6 @@ const Spotify_v2 = () => {
             }
         }
         
-
     return(    
             <div className="d-flex flex-column align-items-center mt-5">
 
