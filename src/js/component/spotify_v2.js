@@ -24,9 +24,9 @@ const Spotify_v2 = () => {
 
     }
 
-    useEffect(() => { // se ejecuta solo al inicio
+    useEffect(() => { // se ejecuta al inicio, si no se pone el array vacio [], se va ejecutar cada vez que renderice algo
         fetchSongs()  
-        })
+        },[])
     
     const getSong= (songIndex, songUrl) => {
         setSongName(songUrl) // tiene delay en asignar el valor por ser async (useState)
